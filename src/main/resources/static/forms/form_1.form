@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "label": "Nom et Prénom",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_08l2knv",
+        "columns": null
+      },
+      "id": "Field_0rcoq7t",
+      "key": "nom",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "ID",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_050t58c",
+        "columns": null
+      },
+      "id": "Field_1iqovp8",
+      "key": "id",
+      "description": " l'identifiant unique",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Ressources Humaines",
+          "value": "Ressources Humaines"
+        },
+        {
+          "label": "Finance",
+          "value": "Finance"
+        },
+        {
+          "label": "Marketing",
+          "value": "Marketing"
+        },
+        {
+          "label": " Informatique et Développement",
+          "value": " Informatique et Développement"
+        },
+        {
+          "label": "Logistique",
+          "value": "Logistique"
+        }
+      ],
+      "label": "Département",
+      "type": "select",
+      "layout": {
+        "row": "Row_0nwlbn3",
+        "columns": null
+      },
+      "id": "Field_06ozi30",
+      "key": "dep",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Votre titre du poste",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0vpow8v",
+        "columns": null
+      },
+      "id": "Field_0l9qpg7",
+      "key": "poste",
+      "description": "Libellé officiel du poste occupé ",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "form_1",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "schemaVersion": 8
+}
